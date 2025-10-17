@@ -2,8 +2,8 @@
 This repository follow the UI Demo Kit Tutorial.
 
 <strong> UI5 Conventions</strong>
-<p>
-	• View names are capitalized
+<p><ol>
+	<li> View names are capitalized</li>
 	• All views are stored in the view folder
 	• Names of XML views always end with *.view.xml
 	• The default XML namespace is sap.m
@@ -15,7 +15,7 @@ This repository follow the UI Demo Kit Tutorial.
 	• Use sap.ui.define for controllers and all other JavaScript modules to define a global namespace. With the namespace, the object can be addressed throughout the application.
 	• Use sap.ui.require for asynchronously loading dependencies but without declaring a namespace, for example code that just needs to be executed, but does not need to be called from other code.
 Use the name of the artifact to load for naming the function parameters (without namespace).
-
+</ol>
 </p>
 <strong> Content </strong>
 <p>
