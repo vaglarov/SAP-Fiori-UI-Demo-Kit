@@ -15,6 +15,13 @@ This repository follow the UI Demo Kit Tutorial.
 	<li> Use sap.ui.define for controllers and all other JavaScript modules to define a global namespace. With the namespace, the object can be addressed throughout the application.</li>
 	<li> Use sap.ui.require for asynchronously loading dependencies but without declaring a namespace, for example code that just needs to be executed, but does not need to be called from other code.</li>
 	<li>Use the name of the artifact to load for naming the function parameters (without namespace).</li>
+	<li>The resource model for internationalization is called the i18n model.</li>
+	<li>The default filename is i18n.properties.</li>
+	<li>Resource bundle keys are written in (lower) camelCase.</li>
+	<li>Resource bundle values can contain parameters like {0}, {1}, {2}, …</li>
+	<li>Never concatenate strings that are translated, always use placeholders.</li>
+	<li>Use Unicode escape sequences for special characters.</li>
+	<li>Do not specify colors in custom CSS but use the standard theme-dependent classes instead.</li>
 </ol>
 </p>
 <strong> Content </strong>
