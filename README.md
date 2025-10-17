@@ -2,6 +2,7 @@
 This repository follow the UI Demo Kit Tutorial.
 
 <strong> UI5 Conventions</strong>
+<p>
 	• View names are capitalized
 	• All views are stored in the view folder
 	• Names of XML views always end with *.view.xml
@@ -15,9 +16,12 @@ This repository follow the UI Demo Kit Tutorial.
 	• Use sap.ui.require for asynchronously loading dependencies but without declaring a namespace, for example code that just needs to be executed, but does not need to be called from other code.
 Use the name of the artifact to load for naming the function parameters (without namespace).
 
+</p>
 <strong> Content </strong>
+<p>
 01 Ready...Steady...Go APP 
 https://ui5.sap.com/#/topic/592f36fd077b45349a67dcb3efb46ab1
 
 02 Walkthrough 
 https://ui5.sap.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
+</p>
