@@ -36,12 +36,18 @@ https://ui5.sap.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
 </p>
 <strong> Helpful terminologies </strong>
 	<p><ol>
-	<li> <strong> index.html </strong>
-		<p>  
-		An HTML document consists basically of two sections: head and body. The head part will be used by the browser to process the document.
-		Using meta tags, we can influence the behavior of the browser. In this case, we tell the browser to use UTF-8 as the document character set.
-		We also give our app a title that will be displayed in the browser. Our hard-coded title can be overruled by the app, for example to show a title in the language of the user. The body part describes the layout of the 		page. In our case, we simply display "Hello World" by using a div tag.
-		</p>
-	</ol>
-    </p>
+		<li> <strong> index.html </strong>
+			<p>  
+			An HTML document consists basically of two sections: head and body. The head part will be used by the browser to process the document.
+			Using meta tags, we can influence the behavior of the browser. In this case, we tell the browser to use UTF-8 as the document character set.
+			We also give our app a title that will be displayed in the browser. Our hard-coded title can be overruled by the app, for example to show a title in the language of the user. The body part describes the layout of 
+			the page. In our case, we simply display "Hello World" by using a div tag.
+			</p>
+		</li>
+		<li> <strong> manifest.json </strong>
+			<p>  
+			All application-specific configuration options which we'll introduce in this tutorial will be added to this file.
+			</p>
+		</li>
+	</ol></p>
 <p>
