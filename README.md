@@ -32,3 +32,12 @@ https://ui5.sap.com/#/topic/592f36fd077b45349a67dcb3efb46ab1
 02 Walkthrough 
 https://ui5.sap.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
 </p>
+
+</p>
+<strong> Helpful terminologies </strong>
+	<p><ol>
+	<li> index.html<img width="135" height="21" alt="image" src="https://github.com/user-attachments/assets/11db0354-df03-4373-aa7b-1418cbed38f3" />
+
+	</ol>
+    </p>
+<p>
