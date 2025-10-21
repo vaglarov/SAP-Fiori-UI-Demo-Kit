@@ -1,5 +1,6 @@
 # SAP-Fiori-UI-Demo-Kit
 This repository follow the UI Demo Kit Tutorial.
+https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 
 <strong> UI5 Conventions</strong>
 <p><ol>
@@ -22,6 +23,9 @@ This repository follow the UI Demo Kit Tutorial.
 	<li>Never concatenate strings that are translated, always use placeholders.</li>
 	<li>Use Unicode escape sequences for special characters.</li>
 	<li>Do not specify colors in custom CSS but use the standard theme-dependent classes instead.</li>
+	<li>The webapp/test folder contains non-productive code only.</li>
+	<li>Mock data and the script to start the MockServer are stored in the webapp/localService folder.</li>
+	<li>The script to start the MockServer is called mockserver.js.</li>
 </ol>
 </p>
 <strong> Content </strong>
