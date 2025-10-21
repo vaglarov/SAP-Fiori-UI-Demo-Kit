@@ -21,11 +21,21 @@ https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 	<li>Resource bundle keys are written in (lower) camelCase.</li>
 	<li>Resource bundle values can contain parameters like {0}, {1}, {2}, …</li>
 	<li>Never concatenate strings that are translated, always use placeholders.</li>
+	<strong> Data Types</strong>
 	<li>Use Unicode escape sequences for special characters.</li>
 	<li>Do not specify colors in custom CSS but use the standard theme-dependent classes instead.</li>
+	<strong> Expression Binding</strong>
+	<li>Only use expression binding for trivial calculations.</li>
+	<strong> Mock Server Configuration</strong>
 	<li>The webapp/test folder contains non-productive code only.</li>
 	<li>Mock data and the script to start the MockServer are stored in the webapp/localService folder.</li>
 	<li>The script to start the MockServer is called mockserver.js.</li>
+	<strong> Unit Test</strong>
+	<li>All unit tests are placed in the webapp/test/unit folder of the app.</li>
+	<li>The default naming convention for the test suite is testsuite.qunit.html and testsuite.qunit.js. When adding additional test suites, the naming must follow the pattern testsuite.<name>.qunit.html/testsuite.<name>.qunit.js.</li>
+	<li>Test files referenced in the test suite end with .qunit.js.</li>
+	<li>A unit test should be written for formatters, controller logic, and other individual functionality.</li>
+	<li>All dependencies are replaced by stubs to test only the functionality in scope.</li>
 </ol>
 </p>
 <strong> Content </strong>
