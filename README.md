@@ -53,6 +53,12 @@ https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 	<li>Test files referenced in the test suite end with .qunit.js.</li>
 	<li>A unit test should be written for formatters, controller logic, and other individual functionality.</li>
 	<li>All dependencies are replaced by stubs to test only the functionality in scope.</li>
+	<strong> Unit Test with QUnit</strong>
+	<li>All unit tests are placed in the webapp/test/unit folder of the app.</li>
+	<li>The default naming convention for the test suite is testsuite.qunit.html and testsuite.qunit.js. When adding additional test suites, the naming must follow the pattern testsuite.<name>.qunit.html/testsuite.<name>.qunit.js.</li>
+	<li>Test files referenced in the test suite end with .qunit.js.</li>
+	<li>A unit test should be written for formatters, controller logic, and other individual functionality.</li>
+	<li>All dependencies are replaced by stubs to test only the functionality in scope.</li>
 </ol>
 </p>
 <strong> Content </strong>
