@@ -62,6 +62,8 @@ https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 	<strong> Integration Test with OPA</strong>
 	<li>OPA tests are located in the webapp/test/integration folder of the application.</li>
 	<li>Use page objects and journeys for structuring OPA tests.</li>
+	<strong> Debugging Tools</strong>
+	<li>As per SAPUI5 convention uncompressed source files end with *-dbg.js</li>
 </ol>
 </p>
 <strong> Content </strong>
