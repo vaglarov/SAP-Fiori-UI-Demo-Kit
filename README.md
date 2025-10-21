@@ -88,13 +88,13 @@ https://ui5.sap.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
 | Command controller | **_CTRL+SHIFT+P_** | Commands |
 | Show terminal | CTRL+' | Terminal |
 | &nbsp; | &nbsp; | &nbsp; |
-| 1   | **_npm init --yes_** | \-Create a package file and everything we need. |
-| 2   | **_ui5 --help_** | In terminal: Shol all ui5 command in |
-| 3   | **npm install --global @ui5/cli** | Install Fiori -- Test installation with **_ui5 --help_** |
-| 4   | **npm init --yes** | Create a package file |
-| 5   | **Ui5 init** | Create **yaml** file - Configuration and tooling file |
-| 6   | Create manifest file | Create manifest.json file [Creating a Manifest File for Existing Apps - Documentation - Demo Kit - SAPUI5 SDK](https://ui5.sap.com/#/topic/3a9babace121497abea8f0ea66e156d9?q=create%20a%20description%20file%20for%20existing%20apps) |
-| 7   | **_ui5 serve_** | Run on local machine return -- click on lint to access |
+|     | **_npm init --yes_** | \-Create a package file and everything we need. |
+|     | **_ui5 --help_** | In terminal: Shol all ui5 command in |
+|     | **npm install --global @ui5/cli** | Install Fiori -- Test installation with **_ui5 --help_** |
+|     | **npm init --yes** | Create a package file |
+|     | **Ui5 init** | Create **yaml** file - Configuration and tooling file |
+|     | Create manifest file | Create manifest.json file [Creating a Manifest File for Existing Apps - Documentation - Demo Kit - SAPUI5 SDK](https://ui5.sap.com/#/topic/3a9babace121497abea8f0ea66e156d9?q=create%20a%20description%20file%20for%20existing%20apps) |
+|     | **_ui5 serve_** | Run on local machine return -- click on lint to access |
 | &nbsp; | **_npm i -D @ui5/cli_** | install UI5 CLI - Inside node_modules |
 | &nbsp; | **_ui5 use OpenUI5_** | &nbsp; |
 | &nbsp; | **_ui5 add sap.ui.core sap.m themelib_sap_horizon_** | Add configuration into ui5.yaml file |
