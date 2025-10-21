@@ -59,6 +59,9 @@ https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 	<li>Test files referenced in the test suite end with .qunit.js.</li>
 	<li>A unit test should be written for formatters, controller logic, and other individual functionality.</li>
 	<li>All dependencies are replaced by stubs to test only the functionality in scope.</li>
+	<strong> Integration Test with OPA</strong>
+	<li>OPA tests are located in the webapp/test/integration folder of the application.</li>
+	<li>Use page objects and journeys for structuring OPA tests.</li>
 </ol>
 </p>
 <strong> Content </strong>
