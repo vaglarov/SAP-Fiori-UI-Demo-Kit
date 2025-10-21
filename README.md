@@ -70,6 +70,8 @@ https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 	<strong> Routing with Parameters</strong>
 	<li>Define the routing configuration in the manifest.json / app descriptor</li>
 	<li>Initialize the router at the end of your Component#init function</li>
+	<strong> Responsiveness</strong>
+	<li>Optimize your application for the different screen sizes of phone, tablet, and desktop devices.</li>
 </ol>
 </p>
 <strong> Content </strong>
