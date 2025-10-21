@@ -4,26 +4,41 @@ https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 
 <strong> UI5 Conventions</strong>
 <p><ol>
-	<li> View names are capitalized</li>
-	<li> All views are stored in the view folder</li>
-	<li> Names of XML views always end with *.view.xml</li>
-	<li> The default XML namespace is sap.m</li>
-	<li> Other XML namespaces use the last part of the SAP namespace as alias (for example, mvc for sap.ui.core.mvc)</li>
-	<li> Controller names are capitalized</li>
-	<li> Controllers carry the same name as the related view (if there is a 1:1 relationship)</li>
-	<li> Event handlers are prefixed with on</li>
-	<li> Controller names always end with *.controller.js</li>
-	<li> Use sap.ui.define for controllers and all other JavaScript modules to define a global namespace. With the namespace, the object can be addressed throughout the application.</li>
-	<li> Use sap.ui.require for asynchronously loading dependencies but without declaring a namespace, for example code that just needs to be executed, but does not need to be called from other code.</li>
+	<li>View names are capitalized</li>
+	<li>All views are stored in the view folder</li>
+	<li>Names of XML views always end with *.view.xml</li>
+	<li>The default XML namespace is sap.m</li>
+	<li>Other XML namespaces use the last part of the SAP namespace as alias (for example, mvc for sap.ui.core.mvc)</li>
+	<li>Controller names are capitalized</li>
+	<li>Controllers carry the same name as the related view (if there is a 1:1 relationship)</li>
+	<li>Event handlers are prefixed with on</li>
+	<li>Controller names always end with *.controller.js</li>
+	<li>Use sap.ui.define for controllers and all other JavaScript modules to define a global namespace. With the namespace, the object can be addressed throughout the application.</li>
+	<li>Use sap.ui.require for asynchronously loading dependencies but without declaring a namespace, for example code that just needs to be executed, but does not need to be called from other code.</li>
 	<li>Use the name of the artifact to load for naming the function parameters (without namespace).</li>
+
+	<strong> Translatable Texts</strong>
 	<li>The resource model for internationalization is called the i18n model.</li>
 	<li>The default filename is i18n.properties.</li>
 	<li>Resource bundle keys are written in (lower) camelCase.</li>
 	<li>Resource bundle values can contain parameters like {0}, {1}, {2}, …</li>
 	<li>Never concatenate strings that are translated, always use placeholders.</li>
+	<li>Use Unicode escape sequences for special characters.</li>
+	<strong> Component Configuration</strong>
+	<li>The component is named Component.js.</li>
+	<li>Together with all UI assets of the app, the component is located in the webapp folder.</li>
+	<li>The index.html file is located in the webapp folder if it is used productively.</li>
+	<strong> Descriptor for Applications</strong>
+	<li>The descriptor file is named manifest.json and located in the webapp folder.</li>
+	<li>Use translatable strings for the title and the description of the app.</li>
+	<strong> Margins and Paddings</strong>
+	<li>Use the standard SAPUI5 CSS classes for the layout if possible.</li>
+	<strong> Custom CSS and Theme Colors</strong>
+	<li>Do not specify colors in custom CSS but use the standard theme-dependent classes instead.</li>
+	<strong> Icons</strong>
+	<li>Always use icon fonts rather than images wherever possible, as they are scalable without quality loss (vector graphics) and do not need to be loaded separately.</li>
 	<strong> Data Types</strong>
 	<li>Use Unicode escape sequences for special characters.</li>
-	<li>Do not specify colors in custom CSS but use the standard theme-dependent classes instead.</li>
 	<strong> Expression Binding</strong>
 	<li>Only use expression binding for trivial calculations.</li>
 	<strong> Mock Server Configuration</strong>
