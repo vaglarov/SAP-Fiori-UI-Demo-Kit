@@ -64,6 +64,9 @@ https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 	<li>Use page objects and journeys for structuring OPA tests.</li>
 	<strong> Debugging Tools</strong>
 	<li>As per SAPUI5 convention uncompressed source files end with *-dbg.js</li>
+	<strong> Routing and Navigation</strong>
+	<li>Define the routing configuration in the descriptor</li>
+	<li>Initialize the router at the end of your Component#init function</li>
 </ol>
 </p>
 <strong> Content </strong>
@@ -89,6 +92,24 @@ https://ui5.sap.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
 		<li> <strong> manifest.json </strong>
 			<p>  
 			All application-specific configuration options which we'll introduce in this tutorial will be added to this file.
+			</p>
+		</li>
+		<li> <strong> config </strong>
+			<p>  
+			This section contains the global router configuration and default values that apply for all routes and targets. We define the router class that we want to use and where our views are located in the app. 
+			To load and display views automatically, we also specify which control is used to display the pages and what aggregation should be filled when a new page is displayed.
+			</p>
+		</li>
+		<li> <strong> routes </strong>
+			<p>  
+			Each route defines a name, a pattern, and one or more targets to navigate to when the route has been hit. The pattern is basically the URL part that matches to the route, we define two routes for our app.
+			The first one is a default route that will show the overview page with the content from the previous steps, and the second is the detail route with the URL pattern detail that will show a new page.
+			</p>
+		</li>
+		<li> <strong> targets </strong>
+			<p>  
+			A target defines a view, or even another component, that is displayed; it is associated with one or more routes, and it can also be displayed manually from within the app. Whenever a target is displayed,
+			the corresponding view is loaded and shown in the app. In our app we simply define two targets with a view name that corresponds to the target name.
 			</p>
 		</li>
 	</ol></p>
