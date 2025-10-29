@@ -72,6 +72,8 @@ https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 	<li>Initialize the router at the end of your Component#init function</li>
 	<strong> Responsiveness</strong>
 	<li>Optimize your application for the different screen sizes of phone, tablet, and desktop devices.</li>
+	<strong> Lazy Loading</strong>
+	<li>Lazy-load content that is not initially displayed to the user</li>
 </ol>
 </p>
 <strong> Content </strong>
