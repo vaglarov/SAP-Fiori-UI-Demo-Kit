@@ -2,6 +2,8 @@
 This repository follow the UI Demo Kit Tutorial.
 https://ui5.sap.com/#/topic/8b49fc198bf04b2d9800fc37fecbb218
 
+https://help.sap.com/docs/SAP_NETWEAVER_750/0ce0b8c56fa74dd897fffda8407e8272/8b49fc198bf04b2d9800fc37fecbb218.html
+
 <strong> UI5 Conventions</strong>
 <p><ol>
 	<strong> XML Views</strong>
