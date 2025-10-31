@@ -141,4 +141,7 @@ https://ui5.sap.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
 | &nbsp; | **_ui5 use OpenUI5_** | &nbsp; |
 | &nbsp; | **_ui5 add sap.ui.core sap.m themelib_sap_horizon_** | Add configuration into ui5.yaml file |
 | &nbsp; | **_npm i -D ui5-middleware-simpleproxy_** | &nbsp;install this package as a new development dependency in your package.json. |
+| VS Code | **Commet** | CTRL + /|
+| OData | **OData** | OData|
+| &nbsp; | **?$format=json** | Convert to **JSON**|
 | &nbsp; | &nbsp; | &nbsp; |
