@@ -101,6 +101,7 @@ https://ui5.sap.com/#/topic/3da5f4be63264db99f2e5b04c5e853db
 		<li> <strong> manifest.json </strong>
 			<p>  
 			All application-specific configuration options which we'll introduce in this tutorial will be added to this file.
+			Check info there--->	https://ui5.sap.com/#/topic/8f93bf2b2b13402e9f035128ce8b495f 
 			</p>
 		</li>
 		<li> <strong> config </strong>
