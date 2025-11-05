@@ -23,7 +23,8 @@
             press=".onShowHelloJavaScript"
 			icon="sap-icon://physical-activity"/>
       <Shell>
-		<App class="myAppDemoWT">
+		<App class="myAppDemoWT"
+			 id="app">
 			<pages>
 				<Page title="{i18n>homePageTitle}">
 					<content>

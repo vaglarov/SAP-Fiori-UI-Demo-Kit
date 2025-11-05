@@ -14,7 +14,7 @@ sap.ui.define([
 			this.getView().setModel(oViewModel, "view");
 		},
 
-		 async onOpenDialog() {
+		async onOpenDialog() {
             // create dialog lazily
             this.oDialog ??= await this.loadFragment({
                 name: "ui5.walkthrough.view.HelloDialog"
@@ -22,6 +22,7 @@ sap.ui.define([
         
             this.oDialog.open();
         },
+
         onCloseDialog() {
 			// note: We don't need to chain to the pDialog promise, since this event handler
 			// is only called from within the loaded dialog itself.
@@ -40,6 +41,14 @@ sap.ui.define([
 			const oList = this.byId("invoiceList");
 			const oBinding = oList.getBinding("items");
 			oBinding.filter(aFilter);
+		},
+
+		onPress(oEvent) {
+			const oItem = oEvent.getSource();
+			const oRouter = this.getOwnerComponent().getRouter();
+			oRouter.navTo("detail", {
+				invoicePath: window.encodeURIComponent(oItem.getBindingContext("invoice").getPath().substring(1))
+			});
 		}
 	});
 });
