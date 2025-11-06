@@ -2,16 +2,62 @@
    controllerName="ui5.walkthrough.controller.App"
    xmlns="sap.m"
    xmlns:mvc="sap.ui.core.mvc"
+
    displayBlock="true">
       <Panel>
             <Text text="Hello APP -->App.view.xml"
               width="auto"/>
-
             <Button
             text="{i18n>showHelloButtonTextUI5}"
             press=".onShowHelloUI5"
-			icon="sap-icon://Netweaver-business-client"/>
-
+			icon="sap-icon://Netweaver-business-client"
+			type="Accept"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Attention"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Back"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Critical"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Emphasized"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Ghost"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Reject"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Negative"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Up"/>
+			<Button
+            text="{i18n>showHelloButtonTextUI5}"
+            press=".onShowHelloUI5"
+			icon="sap-icon://Netweaver-business-client"
+			type="Unstyled"/>
+			<!-- class="myGreenButton" -->
             <!-- <ui5-button>Press</ui5-button>
             <ui5-button icon="sap-icon://edit">Edit</ui5-button>
             <ui5-button disabled>Merge</ui5-button> -->
